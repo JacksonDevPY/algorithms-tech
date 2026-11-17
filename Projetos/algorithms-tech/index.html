@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithm's Tech | Dev React, FastAPI e PostgreSQL</title>
+    
+    <meta name="description" content="Sistemas Web de Alta Performance com React, Python (FastAPI) e PostgreSQL. Performance e tecnologia para sua empresa em Jacundá - PA.">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="antialiased bg-[#0c0e12] text-gray-200"> 
+    
+    <!-- Navegação -->
+    <nav class="fixed top-0 w-full z-50 bg-[#0c0e12]/90 backdrop-blur-md border-b border-white/10 px-6 py-4">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="flex items-center">
+                <a href="#" class="logo-link text-xl font-bold tracking-tight text-white">
+                    Algorithm's <span class="text-emerald-400">Tech</span>
+                </a>
+            </div>
+            <div class="hidden md:flex space-x-8 text-[13px] font-medium tracking-wide items-center text-gray-300">
+                <a href="#sobre" class="hover:text-emerald-400 transition-colors">Sobre</a>
+                <a href="#servicos" class="hover:text-emerald-400 transition-colors">Soluções</a>
+                <a href="#projetos" class="hover:text-emerald-400 transition-colors">Portfólio</a>
+                <a href="#contato" class="hover:text-emerald-400 transition-colors">Contato</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative min-h-screen flex flex-col justify-center items-center text-center px-4 pt-20">
+        <div class="hero-content relative z-10 max-w-4xl mx-auto">
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-emerald-500/20 bg-emerald-500/10 text-emerald-400 text-xs font-semibold mb-6 tracking-wide">
+                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                Disponível para Projetos 2026
+            </div>
+            <h1 class="text-4xl md:text-7xl font-extrabold mb-6 tracking-tight text-white leading-[1.1]">
+                Software de Elite. <br>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-300">Soluções Full-Stack.</span>
+            </h1>
+            <p class="text-gray-400 max-w-xl text-base md:text-lg mb-10 leading-relaxed mx-auto font-normal">
+                Sistemas modernos e APIs ultra-rápidas construídas com <b class="text-gray-200">React, Python (FastAPI) e PostgreSQL</b>. Sediada em Jacundá - PA.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#contato" class="px-8 py-3.5 bg-emerald-500 text-slate-950 font-bold rounded-lg hover:bg-emerald-400 transition shadow-lg shadow-emerald-500/10 text-sm">Iniciar Projeto</a>
+                <a href="#servicos" class="px-8 py-3.5 bg-white/5 border border-white/10 text-white font-semibold rounded-lg hover:bg-white/10 transition text-sm">Nossas Soluções</a>
+            </div>
+        </div>
+        
+        <!-- Terminal -->
+        <div class="mt-16 w-full max-w-xl bg-[#12161f] p-5 rounded-xl border border-white/10 font-mono text-xs text-emerald-400 shadow-2xl text-left">
+            <div class="flex space-x-2 mb-3 pb-3 border-b border-white/5">
+                <div class="w-3 h-3 bg-red-500/80 rounded-full"></div>
+                <div class="w-3 h-3 bg-yellow-500/80 rounded-full"></div>
+                <div class="w-3 h-3 bg-emerald-500/80 rounded-full"></div>
+            </div>
+            <p class="text-gray-400">$ initializing_algorithm_tech...</p>
+            <p class="text-gray-200">> location: Jacundá, Pará.</p>
+            <p class="text-cyan-300">> tech_stack: React, Python (FastAPI), PostgreSQL, Linux.</p>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="py-24 max-w-4xl mx-auto px-4 text-center">
+        <h2 class="text-2xl md:text-3xl font-bold mb-6 tracking-tight text-white">Sobre a Algorithm's Tech</h2>
+        <p class="text-gray-400 text-base md:text-lg leading-relaxed mb-12">
+            Atuamos com desenvolvimento web moderno e de alta performance. Construímos interfaces dinâmicas em React consumindo APIs assíncronas em FastAPI, sustentadas por bancos PostgreSQL de alta disponibilidade.
+        </p>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="p-5 bg-[#12161f] border border-white/5 rounded-xl text-center hover:border-cyan-400/30 transition">
+                <i class="fab fa-react text-2xl text-cyan-400 mb-3"></i>
+                <span class="block font-semibold text-sm text-gray-200">React</span>
+            </div>
+            <div class="p-5 bg-[#12161f] border border-white/5 rounded-xl text-center hover:border-emerald-400/30 transition">
+                <i class="fab fa-python text-2xl text-emerald-400 mb-3"></i>
+                <span class="block font-semibold text-sm text-gray-200">Python / FastAPI</span>
+            </div>
+            <div class="p-5 bg-[#12161f] border border-white/5 rounded-xl text-center hover:border-blue-400/30 transition">
+                <i class="fas fa-database text-2xl text-blue-400 mb-3"></i>
+                <span class="block font-semibold text-sm text-gray-200">PostgreSQL</span>
+            </div>
+            <div class="p-5 bg-[#12161f] border border-white/5 rounded-xl text-center hover:border-emerald-400/30 transition">
+                <i class="fas fa-server text-2xl text-emerald-400 mb-3"></i>
+                <span class="block font-semibold text-sm text-gray-200">Linux / Cloud</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Soluções & Tecnologias -->
+    <section id="servicos" class="py-24 max-w-7xl mx-auto px-4">
+        <div class="text-center mb-16">
+            <h2 class="text-2xl md:text-3xl font-bold mb-3 tracking-tight text-white">Soluções & Tecnologias</h2>
+            <p class="text-gray-400 text-sm max-w-xl mx-auto">Engenharia de software sob medida utilizando ferramentas modernas para garantir velocidade, segurança e escala.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Card 1: Frontend -->
+            <div class="bg-[#12161f] p-7 rounded-2xl border border-white/5 hover:border-cyan-500/30 transition flex flex-col justify-between">
+                <div>
+                    <i class="fab fa-react text-cyan-400 text-2xl mb-4"></i>
+                    <h3 class="text-lg font-bold mb-2 text-white">Web Apps Reativos</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-6">Interfaces modernas, rápidas e responsivas focadas na melhor experiência de uso para o cliente.</p>
+                </div>
+                <div class="flex flex-wrap gap-2 pt-4 border-t border-white/5">
+                    <span class="px-2.5 py-1 bg-white/5 text-cyan-400 text-[11px] font-mono rounded">React</span>
+                    <span class="px-2.5 py-1 bg-white/5 text-gray-300 text-[11px] font-mono rounded">Tailwind</span>
+                    <span class="px-2.5 py-1 bg-white/5 text-gray-300 text-[11px] font-mono rounded">SPA</span>
+                </div>
+            </div>
+
+            <!-- Card 2: Backend & APIs -->
+            <div class="bg-[#12161f] p-7 rounded-2xl border border-white/5 hover:border-emerald-500/30 transition flex flex-col justify-between">
+                <div>
+                    <i class="fab fa-python text-emerald-400 text-2xl mb-4"></i>
+                    <h3 class="text-lg font-bold mb-2 text-white">APIs & Automação</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-6">Backends assíncronos de alta velocidade, regras de negócio complexas e automação de rotinas.</p>
+                </div>
+                <div class="flex flex-wrap gap-2 pt-4 border-t border-white/5">
+                    <span class="px-2.5 py-1 bg-white/5 text-emerald-400 text-[11px] font-mono rounded">Python</span>
+                    <span class="px-2.5 py-1 bg-white/5 text-emerald-400 text-[11px] font-mono rounded">FastAPI</span>
+                    <span class="px-2.5 py-1 bg-white/5 text-gray-300 text-[11px] font-mono rounded">REST</span>
+                </div>
+            </div>
+
+            <!-- Card 3: Dados -->
+            <div class="bg-[#12161f] p-7 rounded-2xl border border-white/5 hover:border-blue-500/30 transition flex flex-col justify-between">
+                <div>
+                    <i class="fas fa-database text-blue-400 text-2xl mb-4"></i>
+                    <h3 class="text-lg font-bold mb-2 text-white">Dados & Gestão</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-6">Sistemas verticais (Escolar e Clínico) com modelagem relacional segura e relatórios em tempo real.</p>
+                </div>
+                <div class="flex flex-wrap gap-2 pt-4 border-t border-white/5">
+                    <span class="px-2.5 py-1 bg-white/5 text-blue-400 text-[11px] font-mono rounded">PostgreSQL</span>
+                    <span class="px-2.5 py-1 bg-white/5 text-gray-300 text-[11px] font-mono rounded">SQL</span>
+                    <span class="px-2.5 py-1 bg-white/5 text-gray-300 text-[11px] font-mono rounded">Analytics</span>
+                </div>
+            </div>
+
+            <!-- Card 4: Infraestrutura & Manutenção -->
+            <div class="bg-[#12161f] p-7 rounded-2xl border border-white/5 hover:border-emerald-500/30 transition flex flex-col justify-between">
+                <div>
+                    <i class="fas fa-server text-emerald-400 text-2xl mb-4"></i>
+                    <h3 class="text-lg font-bold mb-2 text-white">Cloud & Manutenção</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-6">Deploy em nuvem, otimização de performance de APIs, proteção de dados e suporte contínuo.</p>
+                </div>
+                <div class="flex flex-wrap gap-2 pt-4 border-t border-white/5">
+                    <span class="px-2.5 py-1 bg-white/5 text-emerald-400 text-[11px] font-mono rounded">Linux</span>
+                    <span class="px-2.5 py-1 bg-white/5 text-gray-300 text-[11px] font-mono rounded">Cloud</span>
+                    <span class="px-2.5 py-1 bg-white/5 text-gray-300 text-[11px] font-mono rounded">Git</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfólio & Sistemas -->
+    <section id="projetos" class="py-24 bg-[#090b0e] border-y border-white/5">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="mb-12">
+                <h2 class="text-2xl md:text-3xl font-bold mb-2 tracking-tight text-white">Portfólio & Sistemas</h2>
+                <p class="text-gray-400 text-sm">Soluções em operação e plataformas em fase ativa de engenharia.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Projeto 1 -->
+                <div class="bg-[#12161f] p-8 rounded-2xl border border-white/5 border-l-4 border-l-emerald-500 flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-start gap-4 mb-4">
+                            <h3 class="text-xl font-bold text-white">School System</h3>
+                            <span class="inline-flex items-center gap-1.5 px-2.5 py-1 bg-emerald-500/10 text-emerald-400 text-xs font-semibold rounded-full shrink-0">
+                                <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+                                Em Produção
+                            </span>
+                        </div>
+                        <p class="text-gray-400 text-sm mb-6 leading-relaxed">Plataforma SPA reativa para gestão escolar completa: matrículas, notas, frequências e relatórios integrados.</p>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2.5 py-1 bg-white/5 text-cyan-400 text-xs font-mono rounded">React</span>
+                        <span class="px-2.5 py-1 bg-white/5 text-emerald-400 text-xs font-mono rounded">FastAPI</span>
+                        <span class="px-2.5 py-1 bg-white/5 text-blue-400 text-xs font-mono rounded">PostgreSQL</span>
+                    </div>
+                </div>
+
+                <!-- Projeto 2 -->
+                <div class="bg-[#12161f] p-8 rounded-2xl border border-white/5 border-l-4 border-l-amber-500 flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-start gap-4 mb-4">
+                            <h3 class="text-xl font-bold text-white">Clinic System</h3>
+                            <span class="inline-flex items-center gap-1.5 px-2.5 py-1 bg-amber-500/10 text-amber-400 text-xs font-semibold rounded-full shrink-0">
+                                <span class="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse"></span>
+                                Em Desenvolvimento
+                            </span>
+                        </div>
+                        <p class="text-gray-400 text-sm mb-6 leading-relaxed">Plataforma de gestão médica assíncrona voltada para agendamentos inteligentes, prontuários eletrônicos e dados em tempo real.</p>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2.5 py-1 bg-white/5 text-cyan-400 text-xs font-mono rounded">React</span>
+                        <span class="px-2.5 py-1 bg-white/5 text-emerald-400 text-xs font-mono rounded">Python / FastAPI</span>
+                        <span class="px-2.5 py-1 bg-white/5 text-blue-400 text-xs font-mono rounded">PostgreSQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="py-24 max-w-2xl mx-auto px-4">
+        <div class="text-center mb-12">
+            <h2 class="text-2xl md:text-3xl font-bold mb-3 tracking-tight text-white">Vamos conversar?</h2>
+            <p class="text-gray-400 text-sm">Envie os detalhes do seu projeto ou chame diretamente no WhatsApp.</p>
+        </div>
+        <form class="space-y-4">
+            <input type="text" placeholder="Seu nome" class="w-full p-3.5 bg-[#12161f] border border-white/10 rounded-xl text-white placeholder-gray-500 focus:border-emerald-500 focus:outline-none transition text-sm" required>
+            <input type="email" placeholder="Seu e-mail" class="w-full p-3.5 bg-[#12161f] border border-white/10 rounded-xl text-white placeholder-gray-500 focus:border-emerald-500 focus:outline-none transition text-sm" required>
+            <textarea placeholder="Sua mensagem" rows="4" class="w-full p-3.5 bg-[#12161f] border border-white/10 rounded-xl text-white placeholder-gray-500 focus:border-emerald-500 focus:outline-none transition text-sm" required></textarea>
+            <button type="submit" class="w-full py-3.5 bg-emerald-500 text-slate-950 font-bold rounded-xl hover:bg-emerald-400 transition text-sm tracking-wide">Enviar Mensagem</button>
+        </form>
+        <div class="mt-8 text-center">
+            <a href="https://wa.me/5594991569871" target="_blank" class="inline-flex items-center gap-2 text-emerald-400 font-semibold hover:text-emerald-300 text-sm transition-colors">
+                <i class="fab fa-whatsapp text-lg"></i> Chamar no WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-white/5 text-center text-xs text-gray-500 bg-[#090b0e]">
+        <p>&copy; 2026 Algorithm's Tech - Jacundá, PA. Todos os direitos reservados.</p>
+        <p class="mt-3 text-gray-400">
+            Fundador: <span class="text-emerald-400 font-medium">Jackson Magalhães Ferreira</span>
+        </p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script defer src="/_vercel/insights/script.js"></script>
+</body>
+</html>
